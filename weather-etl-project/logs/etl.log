@@ -1,0 +1,86 @@
+2026-03-03 19:05:22 - INFO - ============================================================
+2026-03-03 19:05:22 - INFO - ETL PIPELINE STARTED at 2026-03-03 19:05:22
+2026-03-03 19:05:22 - INFO - ============================================================
+2026-03-03 19:05:22 - INFO - Starting extraction for 5 cities.
+2026-03-03 19:05:22 - INFO - Extracting weather data for city: Delhi
+2026-03-03 19:05:23 - ERROR - HTTP error for city 'Delhi': 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=f29c3c9adbed1675d7c870955291fde0 (status 401)
+2026-03-03 19:05:23 - WARNING - Skipping city 'Delhi' due to error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=f29c3c9adbed1675d7c870955291fde0
+2026-03-03 19:05:23 - INFO - Extracting weather data for city: Mumbai
+2026-03-03 19:05:24 - ERROR - HTTP error for city 'Mumbai': 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=f29c3c9adbed1675d7c870955291fde0 (status 401)
+2026-03-03 19:05:24 - WARNING - Skipping city 'Mumbai' due to error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=f29c3c9adbed1675d7c870955291fde0
+2026-03-03 19:05:24 - INFO - Extracting weather data for city: Bangalore
+2026-03-03 19:05:24 - ERROR - HTTP error for city 'Bangalore': 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=f29c3c9adbed1675d7c870955291fde0 (status 401)
+2026-03-03 19:05:24 - WARNING - Skipping city 'Bangalore' due to error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=f29c3c9adbed1675d7c870955291fde0
+2026-03-03 19:05:24 - INFO - Extracting weather data for city: Chennai
+2026-03-03 19:05:25 - ERROR - HTTP error for city 'Chennai': 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=f29c3c9adbed1675d7c870955291fde0 (status 401)
+2026-03-03 19:05:25 - WARNING - Skipping city 'Chennai' due to error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=f29c3c9adbed1675d7c870955291fde0
+2026-03-03 19:05:25 - INFO - Extracting weather data for city: Kolkata
+2026-03-03 19:05:26 - ERROR - HTTP error for city 'Kolkata': 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=f29c3c9adbed1675d7c870955291fde0 (status 401)
+2026-03-03 19:05:26 - WARNING - Skipping city 'Kolkata' due to error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=f29c3c9adbed1675d7c870955291fde0
+2026-03-03 19:05:26 - INFO - Extraction complete. Successfully fetched data for 0 / 5 cities.
+2026-03-03 19:05:26 - WARNING - No data extracted. Pipeline aborted.
+2026-03-03 19:06:14 - INFO - Starting transformation of 3 records.
+2026-03-03 19:06:14 - INFO - Transformation complete — cities: 3, dates: 1, facts: 3
+2026-03-03 19:06:14 - INFO - Running data validations …
+2026-03-03 19:06:14 - INFO - ✓ Temperature validation passed.
+2026-03-03 19:06:14 - INFO - ✓ Humidity validation passed.
+2026-03-03 19:06:14 - INFO - ✓ City name null-check passed.
+2026-03-03 19:06:14 - INFO - ✓ No duplicate cities found.
+2026-03-03 19:06:14 - INFO - All validations passed successfully.
+2026-03-03 19:15:28 - INFO - transform - Starting transformation of 3 records.
+2026-03-03 19:15:28 - INFO - transform - Transformation complete — cities: 3, dates: 1, facts: 3
+2026-03-03 19:15:28 - INFO - validate - Running data validations …
+2026-03-03 19:15:28 - INFO - validate - ✓ Temperature validation passed.
+2026-03-03 19:15:28 - INFO - validate - ✓ Humidity validation passed.
+2026-03-03 19:15:28 - INFO - validate - ✓ City name null-check passed.
+2026-03-03 19:15:28 - INFO - validate - ✓ No duplicate cities found.
+2026-03-03 19:15:28 - INFO - validate - All validations passed successfully.
+2026-03-03 19:48:55 - INFO - main - ============================================================
+2026-03-03 19:48:55 - INFO - main - ETL PIPELINE STARTED at 2026-03-03 19:48:55
+2026-03-03 19:48:55 - INFO - main - ============================================================
+2026-03-03 19:48:55 - INFO - extract - Starting extraction for 5 cities.
+2026-03-03 19:48:55 - INFO - extract - Extracting weather data for city: Delhi
+2026-03-03 19:48:57 - INFO - extract - Successfully extracted data for city: Delhi
+2026-03-03 19:48:57 - INFO - extract - Extracting weather data for city: Mumbai
+2026-03-03 19:48:58 - INFO - extract - Successfully extracted data for city: Mumbai
+2026-03-03 19:48:58 - INFO - extract - Extracting weather data for city: Bangalore
+2026-03-03 19:48:59 - INFO - extract - Successfully extracted data for city: Bangalore
+2026-03-03 19:48:59 - INFO - extract - Extracting weather data for city: Chennai
+2026-03-03 19:49:00 - INFO - extract - Successfully extracted data for city: Chennai
+2026-03-03 19:49:00 - INFO - extract - Extracting weather data for city: Kolkata
+2026-03-03 19:49:01 - INFO - extract - Successfully extracted data for city: Kolkata
+2026-03-03 19:49:01 - INFO - extract - Extraction complete. Successfully fetched data for 5 / 5 cities.
+2026-03-03 19:49:01 - INFO - transform - Starting transformation of 5 records.
+2026-03-03 19:49:01 - INFO - transform - Transformation complete — cities: 5, dates: 5, facts: 5
+2026-03-03 19:49:01 - INFO - validate - Running data validations …
+2026-03-03 19:49:01 - INFO - validate - ✓ Temperature validation passed.
+2026-03-03 19:49:01 - INFO - validate - ✓ Humidity validation passed.
+2026-03-03 19:49:01 - INFO - validate - ✓ City name null-check passed.
+2026-03-03 19:49:01 - INFO - validate - ✓ No duplicate cities found.
+2026-03-03 19:49:01 - INFO - validate - All validations passed successfully.
+2026-03-03 19:49:01 - INFO - load - Total records to process: 15
+2026-03-03 19:49:01 - INFO - load - Database connection established.
+2026-03-03 19:49:01 - INFO - load - Inserted 5 rows into dim_city.
+2026-03-03 19:49:01 - INFO - load - Inserted 5 rows into dim_date.
+2026-03-03 19:49:01 - INFO - load - Inserted 5 rows into fact_weather.
+2026-03-03 19:49:01 - INFO - load - Database connection closed.
+2026-03-03 19:49:01 - INFO - load - Load complete — Total inserted: 15 / 15 records.
+2026-03-03 19:49:01 - INFO - main - ============================================================
+2026-03-03 19:49:01 - INFO - main - Pipeline completed successfully in 5.92 seconds
+2026-03-03 19:49:01 - INFO - main - ============================================================
+2026-03-03 19:49:01 - INFO - main - Performance Summary:
+
+============================================================
+  PIPELINE PERFORMANCE SUMMARY
+============================================================
+  Status             : SUCCESS
+  Execution Time     : 5.92 seconds
+  Cities Requested   : 5
+  Records Extracted  : 5
+  Records Rejected   : 0
+  dim_city Inserted  : 5
+  dim_date Inserted  : 5
+  fact_weather Ins.  : 5
+  Total Inserted     : 15
+============================================================
+
